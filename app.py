@@ -19,7 +19,6 @@ my_foods = [
 
 
 def menu():
-    load(my_foods)
     while True:
         print("1- get the food list ")
         print("2- add a food to the food list ")
@@ -32,7 +31,6 @@ def menu():
         if select == 7:
             break
         selection(my_foods, select)
-        save(my_foods)
 
 
 if __name__ == "__main__":
